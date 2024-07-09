@@ -1,3 +1,5 @@
+[![CI](https://github.com/luazhizhan/angpao/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/luazhizhan/angpao/actions/workflows/ci.yml)
+
 # Ang Pao
 
 This is a node.js program that will distribute Ang Paos with a random amount of money to each participant within a given budget.
