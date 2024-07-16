@@ -48,6 +48,10 @@ describe('distributeAngPaos', () => {
     expect(distribution2).toHaveLength(20)
     expect(distribution2.reduce((a, b) => a + b)).toBe(10050)
 
+    const distribution4 = distributeAngPaos(10050, 120)
+    expect(distribution4).toHaveLength(120)
+    expect(distribution4.reduce((a, b) => a + b)).toBe(10050)
+
     // $7.54 dollars in cents to 1 million participants
     const distribution3 = distributeAngPaos(754, 1_000_000)
     expect(distribution3).toHaveLength(1000000)
